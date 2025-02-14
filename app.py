@@ -19,7 +19,7 @@ if selected_section == "Home":
     **Phone:** 347-466-6215  
     **LinkedIn:** [linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a](https://linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a)  
     """)
-    st.image(url, caption="Your Profile Picture", width=500)
+    st.image(url, caption="Your Profile Picture", width=350)
     st.write("Welcome to my portfolio! Explore my professional journey, skills, and projects.")
 
 # Summary Section
