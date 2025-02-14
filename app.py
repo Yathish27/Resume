@@ -16,8 +16,9 @@ if selected_section == "Home":
     **Phone:** 347-466-6215  
     **LinkedIn:** [linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a](https://linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a)  
     """)
-    url = "https://github.com/Yathish27/Resume/blob/main/IMG_1674.jpg"
-    st.image(url, caption="Your Profile Picture", width=150, use_column_width=True)
+    image_url = "https://github.com/Yathish27/Resume/blob/main/IMG_1674.jpg"
+    url = str(image_url).strip()
+    st.image(url, caption="Your Profile Picture", width=150)
     st.write("Welcome to my portfolio! Explore my professional journey, skills, and projects.")
 
 # Summary Section
