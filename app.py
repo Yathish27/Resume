@@ -23,8 +23,15 @@ if selected_section == "Home":
 elif selected_section == "Summary":
     st.header("Summary")
     st.write("""
-    I am a Mastes student in Cybersecurity at New York University with expertise in Penetration Testing, Malware Analysis, Software Security, and Network Security. 
-    With 2 years of experience as a DevSecOps Engineer at Schneider Electric, I have honed my skills in release management, Salesforce-GitHub integration, and cloud security.
+    I am currently pursuing a Master’s degree in Cybersecurity at New York University’s Tandon School of Engineering. My areas of specialization include Information Security, Network Security, Ethical Hacking, and AI for Cybersecurity. Before starting my academic journey at NYU, I worked as a DevOps Security Engineer at Schneider Electric in Bengaluru, India, for nearly two and a half years, including a six-month internship at the beginning of my career.
+
+During my time at Schneider Electric, I developed expertise in DevSecOps release management using technologies such as GitHub Actions, Bitbucket, AWS, and Docker. I played a key role in the company’s migration to Enterprise Cloud, which resulted in significant cost savings. My responsibilities included hosting servers in Docker containers and integrating them with Salesforce Cloud. This was part of a broader initiative to enhance digital customer relationship management by integrating Salesforce with SAP and Schneider Product Information Management systems. I also collaborated with over 80 developers to manage critical Agile release cycles and contributed to several proof-of-concept projects. Notably, I explored Kubernetes as an orchestration manager and designed AI-driven solutions for creating product catalogs and brochures, which are planned for rollout in 2025.
+
+Before joining Schneider Electric, I worked as a research intern at PES University during my undergraduate studies. There, I developed an “AI-based Modular Agriculture Robot” using 3D-printed components. The robot utilized Raspberry Pi for the web server and Arduino with sensors to control motion and collect data from agricultural fields. Its capabilities included crop and weed detection, fruit identification, and pest monitoring.
+
+For my capstone project at NYU, I focused on deepfake detection. I developed a solution using state-of-the-art deep learning models such as EfficientNet B7, Xception Net, and Inception ResNet to learn facial characteristics. These models were integrated with LSTM neural networks to identify spatial inconsistencies in video frames. This project addressed the growing threat of deepfakes created by platforms like DeepSwap and DeepFace Labs that have been used to spread misinformation involving public figures such as Barack Obama and Donald Trump. My solution aimed to mitigate social abuse, political manipulation, and other harmful effects by providing highly accurate detection mechanisms. Additionally, I conducted a comparative study of various models, ensembled their results, and classified them effectively.
+
+Beyond my academic and professional work, I have been actively involved in teaching AI and Robotics as a part-time tutor for undergraduate students. I focused on helping students understand practical approaches through real-world case studies. I am also an active member of the Cybersecurity Club, participate in CTF hackathons, and engage in bug bounty hunting.
     """)
 
 # Experience Section
