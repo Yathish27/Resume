@@ -15,8 +15,7 @@ selected_section = st.sidebar.radio("Go to:", sections)
 if selected_section == "Home":
     st.title("Yathish Naraganahalli Veerabhadraiah")
     st.markdown("""
-    **Email:** yn2426@nyu.edu  
-    **Phone:** 347-466-6215  
+    **Email:** yn2426@nyu.edu   
     **LinkedIn:** [linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a](https://linkedin.com/in/yathish-naraganahalli-veerabhadraiah24656b16a)  
     """)
     st.image(url, caption="Your Profile Picture", width=350)
