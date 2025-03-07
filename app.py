@@ -8,7 +8,7 @@ st.set_page_config(page_title="Yathish Naraganahalli Veerabhadraiah - Portfolio"
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-sections = ["Home", "Summary", "Experience", "Projects", "Education", "Skills"]
+sections = ["Home", "Summary", "Experience", "Projects", "Education", "Skills", "Awards and Honors"]
 selected_section = st.sidebar.radio("Go to:", sections)
 
 # Home Section
@@ -25,11 +25,11 @@ if selected_section == "Home":
 elif selected_section == "Summary":
     st.header("Summary")
     st.write("""
-    I am currently pursuing a Master’s degree in Cybersecurity at New York University’s Tandon School of Engineering. My areas of specialization include Information Security, Network Security, Ethical Hacking, and AI for Cybersecurity. Before starting my academic journey at NYU, I worked as a DevOps Security Engineer at Schneider Electric in Bengaluru, India, for nearly two and a half years, including a six-month internship at the beginning of my career.
+    I am currently pursuing a Master's degree in Cybersecurity at New York University's Tandon School of Engineering. My areas of specialization include Information Security, Network Security, Ethical Hacking, and AI for Cybersecurity. Before starting my academic journey at NYU, I worked as a DevOps Security Engineer at Schneider Electric in Bengaluru, India, for nearly two and a half years, including a six-month internship at the beginning of my career.
 
-During my time at Schneider Electric, I developed expertise in DevSecOps release management using technologies such as GitHub Actions, Bitbucket, AWS, and Docker. I played a key role in the company’s migration to Enterprise Cloud, which resulted in significant cost savings. My responsibilities included hosting servers in Docker containers and integrating them with Salesforce Cloud. This was part of a broader initiative to enhance digital customer relationship management by integrating Salesforce with SAP and Schneider Product Information Management systems. I also collaborated with over 80 developers to manage critical Agile release cycles and contributed to several proof-of-concept projects. Notably, I explored Kubernetes as an orchestration manager and designed AI-driven solutions for creating product catalogs and brochures, which are planned for rollout in 2025.
+During my time at Schneider Electric, I developed expertise in DevSecOps release management using technologies such as GitHub Actions, Bitbucket, AWS, and Docker. I played a key role in the company's migration to Enterprise Cloud, which resulted in significant cost savings. My responsibilities included hosting servers in Docker containers and integrating them with Salesforce Cloud. This was part of a broader initiative to enhance digital customer relationship management by integrating Salesforce with SAP and Schneider Product Information Management systems. I also collaborated with over 80 developers to manage critical Agile release cycles and contributed to several proof-of-concept projects. Notably, I explored Kubernetes as an orchestration manager and designed AI-driven solutions for creating product catalogs and brochures, which are planned for rollout in 2025.
 
-Before joining Schneider Electric, I worked as a research intern at PES University during my undergraduate studies. There, I developed an “AI-based Modular Agriculture Robot” using 3D-printed components. The robot utilized Raspberry Pi for the web server and Arduino with sensors to control motion and collect data from agricultural fields. Its capabilities included crop and weed detection, fruit identification, and pest monitoring.
+Before joining Schneider Electric, I worked as a research intern at PES University during my undergraduate studies. There, I developed an "AI-based Modular Agriculture Robot" using 3D-printed components. The robot utilized Raspberry Pi for the web server and Arduino with sensors to control motion and collect data from agricultural fields. Its capabilities included crop and weed detection, fruit identification, and pest monitoring.
 
 For my capstone project at NYU, I focused on deepfake detection. I developed a solution using state-of-the-art deep learning models such as EfficientNet B7, Xception Net, and Inception ResNet to learn facial characteristics. These models were integrated with LSTM neural networks to identify spatial inconsistencies in video frames. This project addressed the growing threat of deepfakes created by platforms like DeepSwap and DeepFace Labs that have been used to spread misinformation involving public figures such as Barack Obama and Donald Trump. My solution aimed to mitigate social abuse, political manipulation, and other harmful effects by providing highly accurate detection mechanisms. Additionally, I conducted a comparative study of various models, ensembled their results, and classified them effectively.
 
@@ -123,7 +123,54 @@ elif selected_section == "Skills":
         st.subheader("Tools:")
         for tool in tools:
             st.markdown(f"- {tool}")
-            
-        
+
+# Awards and Honors Section
+elif selected_section == "Awards and Honors":
+    st.header("Awards and Honors")
     
-        
+    st.subheader("TCC Ideathon Winner")
+    st.write("""
+    - **Issued by:** TCC NYU
+    - **Date:** November 2024
+    - Pitched an idea to improve library experience for students and staff with Gamification and recommendations system in the NYU library with partnership with Cafeteria and Albert along with integration of Gen AI.
+    """)
+    
+    st.subheader("Schneider DTC IDEATHON")
+    st.write("""
+    - **Issued by:** Schneider Electric
+    - **Date:** March 2024
+    - Won second place in the Ideathon competition for proposing idea of Creative advertising for B2C marketing using Gen AI.
+    """)
+    
+    st.subheader("Trailblaze Ranger")
+    st.write("""
+    - **Issued by:** Salesforce
+    - **Date:** June 2023
+    """)
+    
+    st.subheader("Ideathon 2020")
+    st.write("""
+    - **Issued by:** PES UNIVERSITY
+    - **Date:** September 2020
+    - Top 3 participant in the competition with the theme "Rebuilding cities during pandemic, natural calamities." Developed a project on Smart solutions for water wastage management.
+    """)
+    
+    st.subheader("CTF Hackathon")
+    st.write("""
+    - **Issued by:** PES UNIVERSITY
+    - **Date:** October 2019
+    - Participated in first hackathon as an ethical hacker, finished in the top 10 participants.
+    """)
+    
+    st.subheader("President Scout Award")
+    st.write("""
+    - **Issued by:** The Bharat Scout and Guides, India
+    - **Date:** March 2018
+    - Received the highest level award in the Scouts and Guides in India. Participated in the state parade ground during Republic Day celebrations of India.
+    """)
+    
+    st.subheader("Rastraphati Scout")
+    st.write("""
+    - **Issued by:** The Bharat Scouts and Guides
+    - **Date:** August 2017
+    """)
